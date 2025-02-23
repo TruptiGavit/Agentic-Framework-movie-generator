@@ -1,0 +1,22 @@
+story:
+  plot_style: "linear"
+  scene_count: 5
+  character_depth: "moderate"
+  dialogue_style: "simple"
+
+visual:
+  art_style: "cartoon"
+  color_palette: "natural"
+  animation_style: "fluid"
+  camera_movements: "smooth"
+
+audio:
+  background_music: "playful"
+  sound_effects: "natural"
+  voice_style: "friendly"
+  mix_balance: "dialogue_focused"
+
+quality:
+  target_age_rating: "G"
+  content_guidelines: "family_friendly"
+  technical_quality: "high"
