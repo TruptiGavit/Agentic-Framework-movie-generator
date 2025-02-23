@@ -1,0 +1,21 @@
+settings:
+  log_level: INFO
+  debug_mode: false
+  max_concurrent_projects: 5
+  output_directory: "outputs"
+  temp_directory: "temp"
+  
+performance:
+  max_memory_usage: "8GB"
+  max_cpu_usage: 80
+  gpu_enabled: true
+  
+security:
+  enable_authentication: true
+  enable_encryption: true
+  allowed_origins: ["localhost"]
+  
+monitoring:
+  enable_metrics: true
+  metrics_interval: 60
+  alert_threshold: 90 

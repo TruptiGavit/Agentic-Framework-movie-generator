@@ -1,0 +1,34 @@
+models:
+  language:
+    default: "gpt-4"
+    fallback: "gpt-3.5-turbo"
+    
+  image:
+    default: "stable-diffusion"
+    fallback: "dalle-2"
+    
+  audio:
+    default: "neural-tts"
+    fallback: "basic-tts"
+
+storage:
+  project_files:
+    path: "data/projects"
+    max_size: "100GB"
+    
+  temp_files:
+    path: "data/temp"
+    cleanup_interval: 3600
+    
+  output_files:
+    path: "data/outputs"
+    retention_period: 30
+
+compute:
+  gpu:
+    allocation_strategy: "dynamic"
+    memory_buffer: "2GB"
+    
+  cpu:
+    max_threads: 8
+    priority: "normal" 

@@ -1,0 +1,55 @@
+story_pipeline:
+  stages:
+    - name: "plot_generation"
+      agent: "plot_generator"
+      timeout: 300
+      
+    - name: "scene_planning"
+      agent: "scene_planner"
+      timeout: 600
+      
+    - name: "character_development"
+      agent: "character_developer"
+      timeout: 450
+      
+    - name: "dialogue_generation"
+      agent: "dialogue_generator"
+      timeout: 300
+
+visual_pipeline:
+  stages:
+    - name: "scene_interpretation"
+      agent: "scene_interpreter"
+      timeout: 180
+      
+    - name: "image_generation"
+      agent: "image_generator"
+      timeout: 900
+      
+    - name: "animation"
+      agent: "animation_controller"
+      timeout: 1200
+
+audio_pipeline:
+  stages:
+    - name: "music_composition"
+      agent: "music_composer"
+      timeout: 600
+      
+    - name: "voice_generation"
+      agent: "voice_generator"
+      timeout: 450
+      
+    - name: "audio_mixing"
+      agent: "audio_mixer"
+      timeout: 300
+
+quality_pipeline:
+  stages:
+    - name: "continuity_check"
+      agent: "continuity_checker"
+      timeout: 180
+      
+    - name: "content_moderation"
+      agent: "content_moderator"
+      timeout: 240 
