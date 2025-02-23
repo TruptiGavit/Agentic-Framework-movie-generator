@@ -103,6 +103,3 @@ MIT License - see [LICENSE](LICENSE)
 
 ## Support
 
-- [Issue Tracker](https://github.com/yourusername/movie-generator-framework/issues)
-- [Discussion Forum](https://github.com/yourusername/movie-generator-framework/discussions)
-- Email: support@moviegenerator.example.com
